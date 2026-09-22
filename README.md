@@ -1,66 +1,35 @@
-# 🐍 EID LAB 🖥️🔐🌐
+# EID LAB
 
-## 🚀 IT Infrastructure & Cybersecurity Portfolio
+## 🖥️ IT Infrastructure & Cybersecurity Lab
 
-🧪 **EID LAB** is my personal hands-on IT laboratory built to develop and demonstrate practical skills in **system administration 🖥️, networking 🌐, and cybersecurity 🔐**.
+EID LAB is my hands-on IT project for building practical skills in Windows Server, Linux, networking, and cybersecurity.
 
-🛠️ The lab is built using **VMware Workstation** and will include **Windows Server 🪟, Windows clients 💻, Linux systems 🐧, networking 🌐, security configuration 🛡️, and troubleshooting 🔧**.
+This repository documents the lab as I build, configure, test, and troubleshoot the environment.
 
----
+## 🔧 Lab Environment
 
-## 🖥️ Lab Environment 🧪
+- VMware Workstation
+- Windows Server 2022
+- Windows 10
+- Ubuntu Linux
+- Kali Linux
 
-- 🟦 **VMware Workstation** — Virtualization platform
-- 🪟 **Windows Server 2022** — Server infrastructure
-- 💻 **Windows 10** — Client workstation
-- 🐧 **Ubuntu Linux** — Linux administration
-- 🐉 **Kali Linux** — Cybersecurity and security testing
+## 🎯 Goals
 
----
+- Build an IT infrastructure from scratch
+- Configure Windows Server and Linux systems
+- Practice networking and troubleshooting
+- Apply security hardening
+- Document the work with screenshots
 
-## 🎯 Project Goals 🚀
+## 🚧 Current Progress
 
-- 🏗️ Build an **IT infrastructure from scratch**
-- 🖥️ Configure and manage **Windows Server environments**
-- 🌐 Practice **networking and troubleshooting**
-- 🪟🐧 Manage **Windows and Linux systems**
-- 🛡️ Apply **security hardening techniques**
-- 🔧 Troubleshoot real system and network problems
-- 📸 Document real hands-on work with **screenshots and explanations**
-- 📚 Track my progress and lessons learned throughout the project
+### Phase 1 — Windows Server 2022
 
----
+- [ ] Create Windows Server 2022 VM
+- [ ] Install Windows Server 2022
+- [ ] Configure server name
+- [ ] Configure static IP
+- [ ] Test network connectivity
 
-## 🚧 Current Status 🛠️
-
-🐍 **EID LAB is currently under development.**
-
-### 🖥️ Phase 1 — Windows Server 2022
-
-- [ ] 🧱 Create Windows Server 2022 virtual machine
-- [ ] 💿 Install Windows Server 2022
-- [ ] 🏷️ Configure server name
-- [ ] 🌐 Configure static IP address
-- [ ] 📡 Verify network connectivity
-
----
-
-### 🔜 Coming Next
-
-🌐 Networking  
-🏢 Active Directory  
-🧭 DNS  
-📡 DHCP  
-👥 Users & Groups  
-📜 Group Policy  
-📁 File Services  
-🐧 Linux Administration  
-🛡️ Security Hardening  
-🔧 Troubleshooting  
-⚙️ Automation  
-
----
-
-> 🐍 **EID LAB is built step by step. Every configuration, test, problem, and solution is documented as the lab grows.**
-
-🚀 More configurations, labs, screenshots, and projects will be added as **EID LAB** develops.
+More will be added as EID LAB grows.

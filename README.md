@@ -31,6 +31,7 @@ This repository documents the lab as I build, configure, test, and troubleshoot 
 - [ ] Configure server name
 - [ ] Configure static IP
 - [ ] Test network connectivity
+<img width="917" height="508" alt="Screenshot 2026-09-22 233322" src="https://github.com/user-attachments/assets/80e69a01-e8d7-4d75-9b93-6e40859d0024" />
 
 More will be added as EID LAB grows.
 ### Windows Server 2022 VM Hardware Configuration
@@ -47,7 +48,6 @@ More will be added as EID LAB grows.
 Windows Server 2022 was successfully installed on VMware Workstation using the Desktop Experience.
 
 <img width="1527" height="741" alt="Screenshot 2026-09-23 091249" src="https://github.com/user-attachments/assets/92cba34a-2494-41c8-af06-ef46b046b553" />
-<img width="917" height="508" alt="Screenshot 2026-09-22 233322" src="https://github.com/user-attachments/assets/80e69a01-e8d7-4d75-9b93-6e40859d0024" />
 
 
 Configured with:

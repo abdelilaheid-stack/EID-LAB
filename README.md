@@ -28,7 +28,7 @@ This repository documents the lab setup, configuration, and troubleshooting.
 
 - [x] Create Windows Server 2022 VM
 - [x] Install Windows Server 2022 with Desktop Experience
-- [ ] Configure server name
+- [x] Configure server name
 - [ ] Configure static IP
 - [ ] Test network connectivity
 
@@ -51,3 +51,10 @@ Windows Server 2022 was successfully installed on VMware Workstation using the D
 
 
 <img width="1527" height="741" alt="657351748-92cba34a-2494-41c8-af06-ef46b046b553" src="https://github.com/user-attachments/assets/98dd308f-a150-4a8a-8a83-6f9002cfd417" />
+
+### 🖥️ Server Name Configuration
+
+The Windows Server computer name was successfully changed to **EID-DC01**.
+
+The server is currently configured in the **WORKGROUP** before Active Directory Domain Services deployment.
+<img width="1042" height="773" alt="Screenshot 2026-09-23 093221" src="https://github.com/user-attachments/assets/66a625e6-1d07-44d3-833f-3cf2cbbd1ce3" />

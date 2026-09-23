@@ -33,3 +33,11 @@ This repository documents the lab as I build, configure, test, and troubleshoot 
 - [ ] Test network connectivity
 
 More will be added as EID LAB grows.
+### Windows Server 2022 VM Hardware Configuration
+
+Configured with:
+- 4 GB RAM
+- 2 processors
+- NAT networking
+- Windows Server 2022 installation ISO
+<img width="917" height="508" alt="Screenshot 2026-09-22 233322" src="https://github.com/user-attachments/assets/80e69a01-e8d7-4d75-9b93-6e40859d0024" />

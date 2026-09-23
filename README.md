@@ -1,3 +1,27 @@
+# 🐍 EID LAB
+
+## 🖥️ IT Infrastructure & Cybersecurity Lab
+
+EID LAB is my hands-on IT project for building practical skills in Windows Server, Linux, networking, and cybersecurity.
+
+This repository documents the lab setup, configuration, and troubleshooting.
+
+## 🔧 Lab Environment
+
+- VMware Workstation
+- Windows Server 2022
+- Windows 10
+- Ubuntu Linux
+- Kali Linux
+
+## 🎯 Goals
+
+- Build an IT infrastructure from scratch
+- Configure Windows Server and Linux systems
+- Practice networking and troubleshooting
+- Apply security hardening
+- Document hands-on work with screenshots
+
 ## 🚧 Current Progress
 
 ### Phase 1 - Windows Server 2022
@@ -18,10 +42,12 @@ Configured with:
 - NAT networking
 - Windows Server 2022 installation ISO
 
-[صورة إعدادات VMware هنا]
+<img width="892" height="504" alt="657006925-80e69a01-e8d7-4d75-9b93-6e40859d0024" src="https://github.com/user-attachments/assets/14eeed95-f328-4415-ae3a-8ef966223553" />
+
 
 ### 💿 Windows Server Installation
 
 Windows Server 2022 was successfully installed on VMware Workstation using the Desktop Experience.
 
-[صورة شاشة Administrator هنا]
+
+<img width="1527" height="741" alt="657351748-92cba34a-2494-41c8-af06-ef46b046b553" src="https://github.com/user-attachments/assets/98dd308f-a150-4a8a-8a83-6f9002cfd417" />

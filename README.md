@@ -34,6 +34,19 @@ This repository documents the lab as I build, configure, test, and troubleshoot 
 
 More will be added as EID LAB grows.
 ### Windows Server 2022 VM Hardware Configuration
+### 🖥️ Phase 1 - Windows Server 2022
+
+- [x] Create Windows Server 2022 virtual machine
+- [x] Install Windows Server 2022 with Desktop Experience
+- [ ] Configure server name
+- [ ] Configure static IP address
+- [ ] Verify network connectivity
+
+### 📸 Windows Server Installation
+
+Windows Server 2022 was successfully installed on VMware Workstation using the Desktop Experience.
+
+<img width="1527" height="741" alt="Screenshot 2026-09-23 091249" src="https://github.com/user-attachments/assets/92cba34a-2494-41c8-af06-ef46b046b553" />
 
 Configured with:
 - 4 GB RAM

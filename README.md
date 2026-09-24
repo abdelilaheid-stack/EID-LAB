@@ -58,3 +58,22 @@ The Windows Server computer name was successfully changed to **EID-DC01**.
 
 The server is currently configured in the **WORKGROUP** before Active Directory Domain Services deployment.
 <img width="1042" height="773" alt="Screenshot 2026-09-23 093221" src="https://github.com/user-attachments/assets/66a625e6-1d07-44d3-833f-3cf2cbbd1ce3" />
+
+### 🌐 Initial Network Configuration
+
+The Windows Server network configuration was verified using `ipconfig /all`.
+
+At this stage, the server was receiving its network configuration automatically from VMware DHCP.
+
+**Current configuration:**
+
+- Hostname: `EID-DC01`
+- IPv4 Address: `192.168.196.136`
+- Subnet Mask: `255.255.255.0`
+- Default Gateway: `192.168.196.2`
+- DNS Server: `192.168.196.2`
+- DHCP: Enabled
+
+The next step is to configure a static IPv4 address for the server before installing and configuring Active Directory Domain Services (AD DS).
+
+<img width="850" height="587" alt="Screenshot 2026-09-23 223830" src="https://github.com/user-attachments/assets/19a35868-6169-47ff-97d3-2ac9ee4ac305" />

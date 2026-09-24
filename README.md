@@ -30,7 +30,7 @@ This repository documents the lab setup, configuration, and troubleshooting.
 - [x] Install Windows Server 2022 with Desktop Experience
 - [x] Configure server name
 - [x] Configure static IP
-- [ ] Test network connectivity
+- [x] Test network connectivity
 
 ### 🖥️ VM Hardware Configuration
 

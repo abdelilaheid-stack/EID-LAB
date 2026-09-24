@@ -32,6 +32,23 @@ This repository documents the lab setup, configuration, and troubleshooting.
 - [x] Configure static IP
 - [x] Test network connectivity
 
+## 🏢 Phase 2 - Active Directory & DNS
+
+In this phase, EID-DC01 will be configured as a Domain Controller for the EID LAB environment.
+
+### Tasks
+
+- [ ] Install Active Directory Domain Services (AD DS)
+- [ ] Install DNS Server
+- [ ] Promote EID-DC01 to Domain Controller
+- [ ] Create a new Active Directory forest
+- [ ] Configure the domain
+- [ ] Verify Active Directory and DNS
+- [ ] Create Organizational Units (OUs)
+- [ ] Create users and groups
+- [ ] Join Windows 10 client to the domain
+- [ ] Test domain authentication
+
 ### 🖥️ VM Hardware Configuration
 
 Configured with:

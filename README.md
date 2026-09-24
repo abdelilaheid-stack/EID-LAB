@@ -38,11 +38,11 @@ In this phase, EID-DC01 will be configured as a Domain Controller for the EID LA
 
 ### Tasks
 
-- [ ] Install Active Directory Domain Services (AD DS)
-- [ ] Install DNS Server
-- [ ] Promote EID-DC01 to Domain Controller
-- [ ] Create a new Active Directory forest
-- [ ] Configure the domain
+- [x] Install Active Directory Domain Services (AD DS)
+- [x] Install DNS Server
+- [x] Promote EID-DC01 to Domain Controller
+- [x] Create a new Active Directory forest
+- [x] Configure the domain
 - [ ] Verify Active Directory and DNS
 - [ ] Create Organizational Units (OUs)
 - [ ] Create users and groups
@@ -124,4 +124,55 @@ Tests performed:
 
 This confirms that EID-DC01 can communicate with both the local network and external networks.
 
-<img width="472" height="546" alt="Screenshot 2026-09-23 230621" src="https://github.com/user-attachments/assets/dd596a37-4180-4531-ad59-22b6fde8b0fd" />
+<img width="472" height="546" alt="Screenshot 2026-09-23 230621" src="https://github.com/user-attachments/assets/dd596a37-4180-4531-ad59-22b6fde8b0fd" 
+
+  ## 🏢 Active Directory Domain Services
+
+Installed the **Active Directory Domain Services (AD DS)** role on `EID-DC01`.
+
+This role will allow the server to manage:
+- Domain users and computers
+- Authentication
+- Group Policy
+- Centralized network administration
+
+### AD DS Role Installation
+
+<img width="1028" height="772" alt="Screenshot 2026-09-23 232100" src="https://github.com/user-attachments/assets/e2133f57-9505-4183-b558-22ce91fae4d4" 
+
+  
+## 🏢 Active Directory Domain Services Deployment
+
+Active Directory Domain Services (AD DS) was installed and the server was promoted to the first Domain Controller in a new forest.
+
+### Configuration
+
+- Server: `EID-DC01`
+- Domain: `eid.local`
+- NetBIOS name: `EID`
+- DNS Server: Enabled
+- Global Catalog: Enabled
+- Forest Functional Level: Windows Server 2016
+- Domain Functional Level: Windows Server 2016
+
+### Deployment Process
+
+1. Installed the **Active Directory Domain Services (AD DS)** role.
+2. Selected **Promote this server to a domain controller**.
+3. Created a **new forest**.
+4. Configured the root domain as `eid.local`.
+5. Enabled **DNS Server** and **Global Catalog**.
+6. Used `EID` as the NetBIOS domain name.
+7. Reviewed the configuration and completed the prerequisite check.
+8. Promoted `EID-DC01` to a Domain Controller.
+9. Restarted the server and verified the domain configuration.
+
+### Deployment Screenshots
+
+<img width="1625" height="493" alt="Screenshot 2026-09-23 235503" src="https://github.com/user-attachments/assets/e84a82d6-5718-4e2d-82f5-b28583d3d229" />
+
+### ✅ Verification
+
+After the restart, Server Manager confirmed that `EID-DC01` is running as a Domain Controller for the `eid.local` domain.
+
+<img width="1033" height="776" alt="Screenshot 2026-09-23 234419" src="https://github.com/user-attachments/assets/476da847-3a3a-4a0e-b0b4-e85829fd5f53" />

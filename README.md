@@ -77,3 +77,20 @@ At this stage, the server was receiving its network configuration automatically 
 The next step is to configure a static IPv4 address for the server before installing and configuring Active Directory Domain Services (AD DS).
 
 <img width="850" height="587" alt="Screenshot 2026-09-23 223830" src="https://github.com/user-attachments/assets/19a35868-6169-47ff-97d3-2ac9ee4ac305" />
+
+### 🌐 Static IP Configuration
+
+A static IPv4 address was configured on the Windows Server to provide a consistent network address for future server roles and services.
+
+- **Server:** EID-DC01
+- **IPv4:** 192.168.196.136
+- **Subnet Mask:** 255.255.255.0
+- **Default Gateway:** 192.168.196.2
+- **DNS Server:** 192.168.196.2
+- **DHCP:** Disabled
+
+The configuration was verified using:
+
+`ipconfig /all`
+
+<img width="691" height="465" alt="Screenshot 2026-09-23 225649" src="https://github.com/user-attachments/assets/592cb9f7-5061-4100-bbba-e7fd28cca17c" />

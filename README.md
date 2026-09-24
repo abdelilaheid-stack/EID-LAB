@@ -94,3 +94,17 @@ The configuration was verified using:
 `ipconfig /all`
 
 <img width="691" height="465" alt="Screenshot 2026-09-23 225649" src="https://github.com/user-attachments/assets/592cb9f7-5061-4100-bbba-e7fd28cca17c" />
+
+### 🌐 Network Connectivity Test
+
+Network connectivity was successfully verified after configuring the static IP address.
+
+Tests performed:
+
+- Ping to default gateway `192.168.196.2` — Successful
+- Ping to external IP `8.8.8.8` — Successful
+- Packet loss: `0%`
+
+This confirms that EID-DC01 can communicate with both the local network and external networks.
+
+<img width="472" height="546" alt="Screenshot 2026-09-23 230621" src="https://github.com/user-attachments/assets/dd596a37-4180-4531-ad59-22b6fde8b0fd" />

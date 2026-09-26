@@ -203,4 +203,5 @@ Created Active Directory users and a security group.
 - Users: `Ahmad`, `Sara`
 - Security Group: `IT-Users`
 - Added both users to the `IT-Users` group
+- 
 <img width="805" height="550" alt="image" src="https://github.com/user-attachments/assets/54c87af8-86ff-4bb9-8226-d33d4058dd8d" />

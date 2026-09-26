@@ -176,3 +176,16 @@ Active Directory Domain Services (AD DS) was installed and the server was promot
 After the restart, Server Manager confirmed that `EID-DC01` is running as a Domain Controller for the `eid.local` domain.
 
 <img width="1033" height="776" alt="Screenshot 2026-09-23 234419" src="https://github.com/user-attachments/assets/476da847-3a3a-4a0e-b0b4-e85829fd5f53" />
+
+### Active Directory and DNS Verification
+
+Verified that Active Directory and DNS are working correctly.
+
+- Domain: `eid.local`
+- Domain Controller: `EID-DC01`
+- Active Directory: Operational
+- DNS Zones: `eid.local` and `_msdcs.eid.local`
+- DNS Server: Local Domain Controller
+<img width="1245" height="972" alt="image" src="https://github.com/user-attachments/assets/c96ee679-6aa7-4263-b77d-4f32075600c0" />
+<img width="1027" height="773" alt="image" src="https://github.com/user-attachments/assets/b62fbb68-240f-4c25-89bc-e51eb2b0ff91" />
+

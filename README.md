@@ -43,8 +43,8 @@ In this phase, EID-DC01 will be configured as a Domain Controller for the EID LA
 - [x] Promote EID-DC01 to Domain Controller
 - [x] Create a new Active Directory forest
 - [x] Configure the domain
-- [ ] Verify Active Directory and DNS
-- [ ] Create Organizational Units (OUs)
+- [x] Verify Active Directory and DNS
+- [x] Create Organizational Units (OUs)
 - [ ] Create users and groups
 - [ ] Join Windows 10 client to the domain
 - [ ] Test domain authentication
@@ -188,4 +188,19 @@ Verified that Active Directory and DNS are working correctly.
 - DNS Server: Local Domain Controller
 <img width="1245" height="972" alt="image" src="https://github.com/user-attachments/assets/c96ee679-6aa7-4263-b77d-4f32075600c0" />
 <img width="1027" height="773" alt="image" src="https://github.com/user-attachments/assets/b62fbb68-240f-4c25-89bc-e51eb2b0ff91" />
+### Organizational Units
 
+Created Organizational Units to organize Active Directory resources:
+
+- `Eid-Users`
+- `Eid-Computers`
+- `Eid-Groups`
+- <img width="1017" height="778" alt="Screenshot 2026-09-26 001938" src="https://github.com/user-attachments/assets/6b2afce4-6f90-44f6-99c9-8ad7ce741f82" />
+### Users and Groups
+
+Created Active Directory users and a security group.
+
+- Users: `Ahmad`, `Sara`
+- Security Group: `IT-Users`
+- Added both users to the `IT-Users` group
+<img width="805" height="550" alt="image" src="https://github.com/user-attachments/assets/54c87af8-86ff-4bb9-8226-d33d4058dd8d" />

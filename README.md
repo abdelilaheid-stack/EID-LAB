@@ -207,8 +207,11 @@ Created Active Directory users and a security group.
 <img width="805" height="550" alt="image" src="https://github.com/user-attachments/assets/54c87af8-86ff-4bb9-8226-d33d4058dd8d" />
 
 Successfully joined `EID-PC01` to the `eid.local` Active Directory domain.
+
 <img width="399" height="458" alt="Screenshot 2026-09-27 121029" src="https://github.com/user-attachments/assets/a5cb5abd-ccac-48d0-95f8-4bde6d468b97" />
 Successfully authenticated to `EID-PC01` using the domain account `EID\ahmad`.
+
+
 <img width="467" height="404" alt="Screenshot 2026-09-27 121317" src="https://github.com/user-attachments/assets/97c381a0-cd72-4325-b307-a35596957bc9" />
 
 

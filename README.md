@@ -209,6 +209,8 @@ Created Active Directory users and a security group.
 Successfully joined `EID-PC01` to the `eid.local` Active Directory domain.
 
 <img width="399" height="458" alt="Screenshot 2026-09-27 121029" src="https://github.com/user-attachments/assets/a5cb5abd-ccac-48d0-95f8-4bde6d468b97" />
+
+
 Successfully authenticated to `EID-PC01` using the domain account `EID\ahmad`.
 
 

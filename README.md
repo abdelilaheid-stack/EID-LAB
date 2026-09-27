@@ -213,7 +213,6 @@ Successfully joined `EID-PC01` to the `eid.local` Active Directory domain.
 
 Successfully authenticated to `EID-PC01` using the domain account `EID\ahmad`.
 
-
 <img width="467" height="404" alt="Screenshot 2026-09-27 121317" src="https://github.com/user-attachments/assets/97c381a0-cd72-4325-b307-a35596957bc9" />
 
 

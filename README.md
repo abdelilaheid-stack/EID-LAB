@@ -228,5 +228,9 @@ Successfully authenticated to `EID-PC01` using the domain account `EID\ahmad`.
 - [ ] Configure DHCP Reservation
 - [ ] Test DHCP on EID-PC01
 - [ ] Verify DNS and network connectivity
-- [ ] 
+
+Successfully installed the DHCP Server role on `EID-DC01`.
+
+<img width="1018" height="733" alt="Screenshot 2026-09-27 131921" src="https://github.com/user-attachments/assets/cd016ce4-d3ad-4d77-92db-9f4ab602f3ae" />
+
 

@@ -216,3 +216,17 @@ Successfully authenticated to `EID-PC01` using the domain account `EID\ahmad`.
 <img width="467" height="404" alt="Screenshot 2026-09-27 121317" src="https://github.com/user-attachments/assets/97c381a0-cd72-4325-b307-a35596957bc9" />
 
 
+## Phase 3 - DHCP & Network Services
+
+- [ ] Install DHCP Server
+- [ ] Authorize DHCP Server in Active Directory
+- [ ] Create DHCP Scope
+- [ ] Configure IP Address Range
+- [ ] Configure Default Gateway
+- [ ] Configure DNS Server
+- [ ] Configure DHCP Exclusions
+- [ ] Configure DHCP Reservation
+- [ ] Test DHCP on EID-PC01
+- [ ] Verify DNS and network connectivity
+- [ ] 
+

@@ -97,7 +97,7 @@ The next step is to configure a static IPv4 address for the server before instal
 
 ### 🌐 Static IP Configuration
 
-A static IPv4 address was configured on the Windows Server to provide a consistent network address for future server roles and services.
+✅A static IPv4 address was configured on the Windows Server to provide a consistent network address for future server roles and services.
 
 - **Server:** EID-DC01
 - **IPv4:** 192.168.196.136
@@ -106,7 +106,7 @@ A static IPv4 address was configured on the Windows Server to provide a consiste
 - **DNS Server:** 192.168.196.2
 - **DHCP:** Disabled
 
-The configuration was verified using:
+✅The configuration was verified using:
 
 `ipconfig /all`
 
@@ -114,7 +114,7 @@ The configuration was verified using:
 
 ### 🌐 Network Connectivity Test
 
-Network connectivity was successfully verified after configuring the static IP address.
+✅Network connectivity was successfully verified after configuring the static IP address.
 
 Tests performed:
 
@@ -122,13 +122,13 @@ Tests performed:
 - Ping to external IP `8.8.8.8` — Successful
 - Packet loss: `0%`
 
-This confirms that EID-DC01 can communicate with both the local network and external networks.
+✅This confirms that EID-DC01 can communicate with both the local network and external networks.
 
 <img width="472" height="546" alt="Screenshot 2026-09-23 230621" src="https://github.com/user-attachments/assets/dd596a37-4180-4531-ad59-22b6fde8b0fd" 
 
   ## 🏢 Active Directory Domain Services
 
-Installed the **Active Directory Domain Services (AD DS)** role on `EID-DC01`.
+✅Installed the **Active Directory Domain Services (AD DS)** role on `EID-DC01`.
 
 This role will allow the server to manage:
 - Domain users and computers
@@ -143,7 +143,7 @@ This role will allow the server to manage:
   
 ## 🏢 Active Directory Domain Services Deployment
 
-Active Directory Domain Services (AD DS) was installed and the server was promoted to the first Domain Controller in a new forest.
+✅Active Directory Domain Services (AD DS) was installed and the server was promoted to the first Domain Controller in a new forest.
 
 ### Configuration
 
@@ -173,13 +173,13 @@ Active Directory Domain Services (AD DS) was installed and the server was promot
 
 ### ✅ Verification
 
-After the restart, Server Manager confirmed that `EID-DC01` is running as a Domain Controller for the `eid.local` domain.
+✅After the restart, Server Manager confirmed that `EID-DC01` is running as a Domain Controller for the `eid.local` domain.
 
 <img width="1033" height="776" alt="Screenshot 2026-09-23 234419" src="https://github.com/user-attachments/assets/476da847-3a3a-4a0e-b0b4-e85829fd5f53" />
 
 ### Active Directory and DNS Verification
 
-Verified that Active Directory and DNS are working correctly.
+✅Verified that Active Directory and DNS are working correctly.
 
 - Domain: `eid.local`
 - Domain Controller: `EID-DC01`
@@ -190,7 +190,7 @@ Verified that Active Directory and DNS are working correctly.
 <img width="1027" height="773" alt="image" src="https://github.com/user-attachments/assets/b62fbb68-240f-4c25-89bc-e51eb2b0ff91" />
 ### Organizational Units
 
-Created Organizational Units to organize Active Directory resources:
+✅Created Organizational Units to organize Active Directory resources:
 
 - `Eid-Users`
 - `Eid-Computers`
@@ -198,7 +198,7 @@ Created Organizational Units to organize Active Directory resources:
 - <img width="1017" height="778" alt="Screenshot 2026-09-26 001938" src="https://github.com/user-attachments/assets/6b2afce4-6f90-44f6-99c9-8ad7ce741f82" />
 ### Users and Groups
 
-Created Active Directory users and a security group.
+✅Created Active Directory users and a security group.
 
 - Users: `Ahmad`, `Sara`
 - Security Group: `IT-Users`
@@ -206,12 +206,12 @@ Created Active Directory users and a security group.
 - 
 <img width="805" height="550" alt="image" src="https://github.com/user-attachments/assets/54c87af8-86ff-4bb9-8226-d33d4058dd8d" />
 
-Successfully joined `EID-PC01` to the `eid.local` Active Directory domain.
+✅Successfully joined `EID-PC01` to the `eid.local` Active Directory domain.
 
 <img width="399" height="458" alt="Screenshot 2026-09-27 121029" src="https://github.com/user-attachments/assets/a5cb5abd-ccac-48d0-95f8-4bde6d468b97" />
 
 
-Successfully authenticated to `EID-PC01` using the domain account `EID\ahmad`.
+✅Successfully authenticated to `EID-PC01` using the domain account `EID\ahmad`.
 
 <img width="467" height="404" alt="Screenshot 2026-09-27 121317" src="https://github.com/user-attachments/assets/97c381a0-cd72-4325-b307-a35596957bc9" />
 
@@ -233,4 +233,6 @@ Successfully installed the DHCP Server role on `EID-DC01`.
 
 <img width="1018" height="733" alt="Screenshot 2026-09-27 131921" src="https://github.com/user-attachments/assets/cd016ce4-d3ad-4d77-92db-9f4ab602f3ae" />
 
+✅DHCP Server was successfully authorized in Active Directory.
 
+<img width="752" height="557" alt="Screenshot 2026-09-27 132754" src="https://github.com/user-attachments/assets/2ddec0e0-6e8a-4684-8484-3188f51453f2" />

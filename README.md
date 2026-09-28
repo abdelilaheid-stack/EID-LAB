@@ -1,4 +1,3 @@
-<img width="852" height="282" alt="Screenshot 2026-09-27 225249" src="https://github.com/user-attachments/assets/b44e685f-205f-4119-8f80-043ad14f1cb8" />
 # 🐍 EID LAB
 
 ## 🖥️ IT Infrastructure & Cybersecurity Lab

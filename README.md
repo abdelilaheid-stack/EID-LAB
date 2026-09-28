@@ -218,13 +218,13 @@ This role will allow the server to manage:
 
 ## Phase 3 - DHCP & Network Services
 
-- [ ] Install DHCP Server
-- [ ] Authorize DHCP Server in Active Directory
-- [ ] Create DHCP Scope
-- [ ] Configure IP Address Range
-- [ ] Configure Default Gateway
-- [ ] Configure DNS Server
-- [ ] Configure DHCP Exclusions
+- [x] Install DHCP Server
+- [x] Authorize DHCP Server in Active Directory
+- [x] Create DHCP Scope
+- [x] Configure IP Address Range
+- [x] Configure Default Gateway
+- [x] Configure DNS Server
+- [x] Configure DHCP Exclusions
 - [ ] Configure DHCP Reservation
 - [ ] Test DHCP on EID-PC01
 - [ ] Verify DNS and network connectivity
@@ -241,6 +241,6 @@ DHCP Server Configuration
 
 <img width="590" height="345" alt="Screenshot 2026-09-27 195512" src="https://github.com/user-attachments/assets/f5bca741-83d9-4abe-aa80-1f9468b57dac" />
 
-Verified the DHCP scope configuration using PowerShell. The EID-LAN scope is active with an IP range of 192.168.196.150–192.168.196.200, and addresses 192.168.196.150–192.168.196.154 are excluded from automatic assignment.
+✅Verified the DHCP scope configuration using PowerShell. The EID-LAN scope is active with an IP range of 192.168.196.150–192.168.196.200, and addresses 192.168.196.150–192.168.196.154 are excluded from automatic assignment.
 
 <img width="852" height="282" alt="Screenshot 2026-09-27 225249" src="https://github.com/user-attachments/assets/ef84049c-2a90-4df0-b612-b860f4cc40b1" />

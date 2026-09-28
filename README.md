@@ -229,14 +229,14 @@ This role will allow the server to manage:
 - [ ] Test DHCP on EID-PC01
 - [ ] Verify DNS and network connectivity
 
-Successfully installed the DHCP Server role on `EID-DC01`.
+✅Successfully installed the DHCP Server role on `EID-DC01`.
 
 <img width="1018" height="733" alt="Screenshot 2026-09-27 131921" src="https://github.com/user-attachments/assets/cd016ce4-d3ad-4d77-92db-9f4ab602f3ae" />
 
 ✅DHCP Server was successfully authorized in Active Directory.
 
 <img width="752" height="557" alt="Screenshot 2026-09-27 132754" src="https://github.com/user-attachments/assets/2ddec0e0-6e8a-4684-8484-3188f51453f2" />
-
+✅
 DHCP Server Configuration
 
 <img width="590" height="345" alt="Screenshot 2026-09-27 195512" src="https://github.com/user-attachments/assets/f5bca741-83d9-4abe-aa80-1f9468b57dac" />
@@ -245,13 +245,15 @@ DHCP Server Configuration
 
 <img width="852" height="282" alt="Screenshot 2026-09-27 225249" src="https://github.com/user-attachments/assets/ef84049c-2a90-4df0-b612-b860f4cc40b1" />
 
-DHCP Client Verification
+✅DHCP Client Verification
 EID-PC01 successfully received the reserved IP address 192.168.196.155 from the DHCP server.
 
 <img width="513" height="411" alt="Screenshot 2026-09-27 231209" src="https://github.com/user-attachments/assets/e97620dc-05b2-4717-8853-98cb3ed10b27" />
 
+✅Network and DNS Verification
+Successfully verified DNS resolution, domain connectivity, and internet access from EID-PC01.
 
-
+<img width="582" height="546" alt="Screenshot 2026-09-27 232558" src="https://github.com/user-attachments/assets/5f73e397-ef0b-4e33-8dd8-7be690dcfe02" />
 
 
 

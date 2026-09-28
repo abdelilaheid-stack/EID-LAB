@@ -247,7 +247,11 @@ DHCP Server Configuration
 
 DHCP Client Verification
 EID-PC01 successfully received the reserved IP address 192.168.196.155 from the DHCP server.
-![Uploading Screenshot 2026-09-27 230636.png…]()
+
+<img width="513" height="411" alt="Screenshot 2026-09-27 231209" src="https://github.com/user-attachments/assets/e97620dc-05b2-4717-8853-98cb3ed10b27" />
+
+
+
 
 
 

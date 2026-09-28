@@ -237,3 +237,8 @@ Successfully installed the DHCP Server role on `EID-DC01`.
 
 <img width="752" height="557" alt="Screenshot 2026-09-27 132754" src="https://github.com/user-attachments/assets/2ddec0e0-6e8a-4684-8484-3188f51453f2" />
 
+DHCP Server Configuration
+
+<img width="590" height="345" alt="Screenshot 2026-09-27 195512" src="https://github.com/user-attachments/assets/f5bca741-83d9-4abe-aa80-1f9468b57dac" />
+
+

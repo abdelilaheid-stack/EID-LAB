@@ -241,4 +241,4 @@ DHCP Server Configuration
 
 <img width="590" height="345" alt="Screenshot 2026-09-27 195512" src="https://github.com/user-attachments/assets/f5bca741-83d9-4abe-aa80-1f9468b57dac" />
 
-
+Verified the DHCP scope configuration using PowerShell. The EID-LAN scope is active with an IP range of 192.168.196.150–192.168.196.200, and addresses 192.168.196.150–192.168.196.154 are excluded from automatic assignment.

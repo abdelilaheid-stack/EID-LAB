@@ -244,3 +244,10 @@ DHCP Server Configuration
 ✅Verified the DHCP scope configuration using PowerShell. The EID-LAN scope is active with an IP range of 192.168.196.150–192.168.196.200, and addresses 192.168.196.150–192.168.196.154 are excluded from automatic assignment.
 
 <img width="852" height="282" alt="Screenshot 2026-09-27 225249" src="https://github.com/user-attachments/assets/ef84049c-2a90-4df0-b612-b860f4cc40b1" />
+
+DHCP Client Verification
+EID-PC01 successfully received the reserved IP address 192.168.196.155 from the DHCP server.
+![Uploading Screenshot 2026-09-27 230636.png…]()
+
+
+
